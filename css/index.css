@@ -1,0 +1,344 @@
+:root {}
+
+@font-face {
+    font-family: "bigtree";
+    src: url("../assets/Figtree/static/Figtree-Regular.ttf");
+}
+
+
+body {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "bigtree";
+    background-color: rgb(17, 0, 17) !important;
+    color: white;
+}
+/* .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #a21515!important;
+} */
+/* .navbar-dark .navbar-nav .nav-link {
+    color: rgba(13, 24, 237, 0.911)!important;
+} */
+
+
+.w-101 {
+    width: 120%;
+}
+
+.bg-violet {
+    background: linear-gradient(100deg, #9D5EC5, #6D31A3);
+    color: white;
+}
+
+.text-violet {
+    color: rgb(243, 203, 243) !important;
+}
+
+.dark-violet {
+    background: linear-gradient(80deg, #420e62, #63432a);
+    color: white;
+}
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+.mt-8 {
+    margin-top: 200px;
+}
+
+.mt-7 {
+    margin-top: 150px;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.display-9 {
+    font-size: 85px !important;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.p-7 {
+    padding: 25px;
+}
+
+.p-8 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.fs-6 {
+    font-size: 30px !important;
+}
+.f-8{
+ font-size: 16px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item:hover {
+    color: rgb(237, 169, 237) !important;
+}
+
+.blend {
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.mobilesection,
+.servicesection {
+    position: relative;
+    animation: mymove 3s forwards;
+}
+
+.one {
+    z-index: 0 !important;
+}
+
+.Branding:hover {
+    .onee {
+        z-index: 1;
+    }
+
+    .Website {
+        vertical-align: middle;
+    }
+
+    border: 1px solid green;
+}
+
+@keyframes mymove {
+    from {
+        bottom: 0px;
+        /* transform: scale(0); */
+    }
+
+    to {
+        bottom: 80px;
+        /* transform: scale(1); */
+    }
+}
+
+.Customdigi {
+    /* border: solid 1px bottom; */
+    border-bottom: dotted;
+    /* font-size: small; */
+    /* margin-bottom: 10px; */
+}
+
+.servicebanner {
+    background: linear-gradient(to right, rgb(84, 61, 19), rgb(31, 2, 31));
+    /* position: fixed; */
+}
+
+.abc {
+    line-height: 5px;
+}
+
+.abcd {
+    padding: 24px 20px;
+}
+
+.bannerr {
+    background: linear-gradient(rgba(41, 24, 85, 0.738), rgba(74, 9, 60, 0.678)), url("../assets/images/aboutbannerimg.jpg");
+    /* background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(https://picsum.photos/id/1043/800/600); */
+    background-size: cover;
+    height: 550px;
+    margin-top: -110px;
+}
+
+
+
+
+
+.swipersection {
+    /* background: #eee; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    font-size: 14px;
+    /* color: #000; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    background: transparent;
+    border: 2px solid rgb(109, 100, 100);
+}
+
+.fa-check {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* .successSection, .probarsection{
+        background-color:rgb(17, 0, 17) ;
+    } */
+.Metro:hover {
+    /* background-color: #420e625f; */
+    background: linear-gradient(to right, rgba(45, 3, 45, 0.212), rgba(69, 8, 69, 0.655));
+    border-radius: 15px;
+}
+.execut{
+    position: relative
+}
+
+.execut:hover .exe::after{
+    content:"";
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    right: 20px;
+    top: -44px;
+    border-radius: 10px;
+}
+.execut:hover .exe.brand::after{
+    background: url("../assets/images/one.jpg");
+    background-size: contain;
+}
+.execut:hover .exe.camera::after{
+    background: url("../assets/images/two.jpg");
+    background-size: contain;
+}
+.execut:hover .exe.mobile::after{
+    background: url("../assets/images/three.jpg");
+    background-size: contain;
+}
+.execut:hover .exe.roll::after{
+    background: url("../assets/images/four.jpg");
+    background-size: contain;
+}
+.execut:hover .exe.photo::after{
+    background: url("../assets/images/five.jpg");
+    background-size: contain;
+}
+.portimg{
+    height: 450px;
+    width: 100%;
+}
+.port{
+    background: linear-gradient(rgba(41, 24, 85, 0.738), rgba(36, 12, 31, 0.678)), url("../assets/images/portfolioBanner.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: -110px;
+}
+.pricebanner{
+    background: linear-gradient(rgba(41, 24, 85, 0.738), rgba(36, 12, 31, 0.749)), url('../assets/images/pricingBanner.jpg');
+    background-size: cover;
+    height: 550px;
+    margin-top: -110px;
+}
+.card{
+    border: 1px solid rgb(195, 19, 195);
+    background-color: rgb(17, 0, 17) !important;
+}
+.bgtransparent{
+    background: transparent!important;
+}
+.accordion-button::after {
+    /* flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../assets/images/downAngle.png);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out; */
+    background-image: none;
+    content: '\f106';
+    font-family: FontAwesome;
+   transform: rotate(180deg);
+   font-size: 22px;
+ 
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(360deg);
+    background-image: url(../assets/images/downAngle.png);
+    background-image: none;
+    color: white;
+}
+.accordion-button:focus{
+ box-shadow: none;
+}
+.accordion-item {
+    border-bottom: 1px solid rgba(234, 174, 234, 0.725) ;
+    /* padding-bottom: 20px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .blend {
+        line-height: 30px;
+    }
+
+    .display-9 {
+        font-size: 45px !important;
+        font-weight: bolder;
+        line-height: normal;
+    }
+
+    .Customdigi {
+        font-size: 18px !important;
+        border: none;
+    }
+
+    .amet {
+        font-size: 17px !important;
+    }
+
+    .bannerr {
+        background-position: center;
+        margin-top: 0px;
+        height: 300px;
+    }
+    .port{
+        background: linear-gradient(rgba(41, 24, 85, 0.738), rgba(36, 12, 31, 0.678)), url("../assets/images/portfolioBanner.jpg");
+        background-size: cover;
+        height: 500px;
+        margin-top: -110px;
+    }
+    .pricebanner{
+        background: linear-gradient(rgba(41, 24, 85, 0.738), rgba(36, 12, 31, 0.749)), url('../assets/images/pricingBanner.jpg') no-repeat;
+        background-size: cover;
+        height: 400px;
+        margin-top: -100px;
+    }
+}
