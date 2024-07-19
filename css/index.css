@@ -34,6 +34,9 @@ body {
     color: rgb(243, 203, 243) !important;
 }
 
+.text-darkviolet{
+    color: violet;
+}
 .dark-violet {
     background: linear-gradient(80deg, #420e62, #63432a);
     color: white;
@@ -293,6 +296,22 @@ body {
     border-bottom: 1px solid rgba(234, 174, 234, 0.725) ;
     /* padding-bottom: 20px; */
 }
+.btnsign{
+    cursor: no-drop!important;
+}
+.fs{
+    font-size: 35px;
+}
+.fss{
+    font-size: 32px;
+}
+.fs2{
+    font-size: 28px;
+}
+.fss2{
+    font-size: 25px;
+}
+
 
 
 
